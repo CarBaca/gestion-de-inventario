@@ -1,2 +1,2 @@
 # proyecto_final 
-# Repositorio para el PI grupal final de Dat Analytics de Henry - DAFT03 - Grupo 2
+# Repositorio para el PI grupal final de Data Analytics de Henry - DAFT03 - Grupo 2
