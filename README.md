@@ -1,2 +1,13 @@
-## Inventory: optimizando la gestión de inventario
-# Repositorio para el PI grupal final de Data Analytics de Henry - DAFT03 - Grupo 2
+## 📊 Optiminzando la Gestion de Inventario
+
+### Consultora: Analysis IT ACSJ
+
+### Miembros: 
+#### * Baca Carla Valeria - Científica de datos
+#### * Lavergne Aldana Mariel - Ingeniero de Datos
+#### * Mignani Sofia - Analista de datos
+#### * Ordoñe Juan José - Ingeniero de datos
+#### * Castillo Antonella - Analista de datos
+
+### La empresa: 🍸🍾
+![alt text](image.png)
