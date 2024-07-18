@@ -1,15 +1,16 @@
-                               ![image](https://github.com/user-attachments/assets/c2ca036c-3250-4623-a662-b6db55e718aa)
+![image](https://github.com/user-attachments/assets/c2ca036c-3250-4623-a662-b6db55e718aa)
 _________________________________________________________________________________________________________________________
 
 
 
-## 📊 Optiminzando la Gestion de Inventario
-Optimizado la Gestión de Inventario
+## 📊 Optiminzando la Gestión de Inventario
+_________________________________________________________________________________________________________________________
 
 ### Consultora:DATA SOLUTIONS
-
+_________________________________________________________________________________________________________________________
 
 ### Miembros: 
+_________________________________________________________________________________________________________________________
 #### •   Baca Carla Valeria - Científica de datos
 #### •	 Lavergne Aldana Mariel - Ingeniero de Datos
 #### •	 Mignani Sofia - Analista de datos
@@ -17,4 +18,5 @@ Optimizado la Gestión de Inventario
 #### •	 Castillo Antonella - Analista de datos
 
 ### La empresa: 🍸🍾
+_________________________________________________________________________________________________________________________
 ![alt text](image.png)
