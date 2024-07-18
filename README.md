@@ -6,8 +6,6 @@ ________________________________________________________________________________
 ## 📊 Optiminzando la Gestión de Inventario
 
 ### Consultora:DATA SOLUTIONS
-- - -
-
 
 
 ### Miembros: 
@@ -19,3 +17,4 @@ ________________________________________________________________________________
 
 ### La empresa: 🍸🍾
 ![alt text](image.png)
+##### Esta iniciativa aborda los desafíos de inventario que enfrenta Distribuidora DRINK´S E CIA, una empresa de bebidas. A través del análisis de datos y la implementación de modelos de optimización, pretendemos  mejorar la eficiencia en la gestión de inventarios, reducir costos y optimizar la rotación del inventario.
