@@ -5,8 +5,11 @@ ________________________________________________________________________________
 
 ## 📊 Optiminzando la Gestión de Inventario
 
-#### Consultora:DATA SOLUTIONS
+### Consultora:DATA SOLUTIONS
 - - -
+
+
+
 ### Miembros: 
 #### •   Baca Carla Valeria - Científica de datos
 #### •	 Lavergne Aldana Mariel - Ingeniero de Datos
