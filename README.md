@@ -1,7 +1,11 @@
+![image](https://github.com/user-attachments/assets/59bfac18-7836-4526-9c9c-bcd430e3b2a7)
+
+
+
 ## 📊 Optiminzando la Gestion de Inventario
 
-### Consultora: Analysis IT ACSJ
-![image](https://github.com/user-attachments/assets/95787291-b27f-41d4-91f0-91034c7f3832)
+### Consultora:DATA SOLUTIONS
+
 
 ### Miembros: 
 #### * Baca Carla Valeria - Científica de datos
