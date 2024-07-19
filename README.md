@@ -24,3 +24,15 @@ ________________________________________________________________________________
 
 
 ### Desafio🚀 
+#### El principal reto que enfrentamos es la implementación de un sistema de gestión de inventario eficiente. Sin embargo, existen varios obstáculo significativos que debemos superar para lograrlo.Uno de los principales obstáculos es la falta de conocimiento profundo sobre la gestión de inventarios. La información relevante se encuentra dispersa en diferentes archivos de Excel, lo que hace que no haya una uniformidad en los datos. Esta falta de claridad puede tener consecuencias negativas para la empresa. Como el exsezo o escases de productos, problemas de stock y pérdidas en la ventas.
+
+### Objetivos 🎯
+#### •   Analizar y optimizar la gestiín de inventarios.
+#### •   Reducir costos.
+#### •   Optimizar la rotación de inventario.
+#### •   Identificar patrones y tendencias en la venta de los productos.
+#### •   Proporcionar insights valiosos para la toma de desiciones.
+
+### Orígenes de los datos 📈
+
+#### Fuente original: Dataset Inventory esta disponible en [Kaggle](https://www.kaggle.com/datasets/bhanupratapbiswas/inventory-analysis-case-study)
