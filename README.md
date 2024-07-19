@@ -58,3 +58,17 @@ ________________________________________________________________________________
 * **Imágenes**
 * **README**
 
+## Carpeta 'Automatización Watchdog'
+#### En esta carpeta se encuentra el archivo (.ipynb) del proceso de automatización de carga incremental de datos desde Python hacia la base de datos InventarioBD en SQl Server.
+
+## Carpeta 'CSV Finales'
+#### Aquí se guardaron los seis archivos finales (.csv) correspondiente a cada dataframe luego del proceso de ETL. 
+
+## Carpeta 'Diagrama_Entidad-Relación'
+### Carpeta contenedora de imágenes correspondiente al DER de la base de datos InventarioDB, generados en Drawio y en SQL Server Management.
+
+## Carpeta 'EDA - ETL'
+#### Aquí se cargaron los seis archivos (.ipynb) correspondientes a los procesos de de EDA y ETL de cada dataframe de la base de datos.
+
+## Carpeta 'Imagenes'
+#### Carpeta contenedora de imágenes varias que se usaron durante el armado del proyecto y de los archivos en general.
