@@ -7,7 +7,6 @@ ________________________________________________________________________________
 
 ### Consultora:DATA SOLUTIONS
 
-
 ### Miembros: 
 #### •   Baca Carla Valeria - Ingeniera de datos
 #### •	 Lavergne Aldana Mariel - Ingeniera de Datos
@@ -36,3 +35,11 @@ ________________________________________________________________________________
 ### Orígenes de los datos 📈
 
 #### Fuente original: Dataset Inventory esta disponible en [Kaggle](https://www.kaggle.com/datasets/bhanupratapbiswas/inventory-analysis-case-study)
+
+## Descripción de la empresa
+
+DRINK'S & CIA, nos contactó para realizar un análisis exhaustivo de sus datos con el objetivo de optimizar la gestión de su inventario. A través de nuestra consultoría especializada y el uso de técnicas avanzadas de análisis de datos, pudimos identificar áreas de mejora y proponer soluciones que resultaron en una gestión de inventarios eficiente y una reducción significativa de costos.
+
+## Desafío 🚀
+
+El principal reto que enfrentamos es la implementación de un sistema de gestión de inventario eficiente. Sin embargo, existen varios obstáculos significativos que debemos superar para lograrlo. Uno de los principales obstáculos es la falta de conocimiento profundo sobre la gestión de inventarios. La información relevante se encuentra dispersa en diferentes archivos de Excel, lo que hace que no haya una uniformidad en los datos. Esta falta de claridad puede tener consecuencias negativas para la empresa. Como el exceso o escapes de productos, problemas de stock y pérdidas en las ventas.
