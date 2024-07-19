@@ -28,11 +28,11 @@ ________________________________________________________________________________
 #### El principal reto que enfrentamos es la implementación de un sistema de gestión de inventario eficiente. Sin embargo, existen varios obstáculo significativos que debemos superar para lograrlo.Uno de los principales obstáculos es la falta de conocimiento profundo sobre la gestión de inventarios. La información relevante se encuentra dispersa en diferentes archivos de Excel, lo que hace que no haya una uniformidad en los datos. Esta falta de claridad puede tener consecuencias negativas para la empresa. Como el exsezo o escases de productos, problemas de stock y pérdidas en la ventas.
 
 ## Objetivos 🎯
-#### •   Analizar y optimizar la gestiín de inventarios.
-#### •   Reducir costos.
-#### •   Optimizar la rotación de inventario.
-#### •   Identificar patrones y tendencias en la venta de los productos.
-#### •   Proporcionar insights valiosos para la toma de desiciones.
+* **Analizar y optimizar la gestiín de inventarios.**
+* **Reducir costos.**
+* **Optimizar la rotación de inventario.**
+* **Identificar patrones y tendencias en la venta de los productos.**
+* **Proporcionar insights valiosos para la toma de desiciones.**
 
 ## Orígenes de los datos 📈
 
@@ -51,5 +51,10 @@ ________________________________________________________________________________
 ![Microsoft SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) ![Visual Code Studio](https://img.shields.io/badge/Visual%20Code%20Studio-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=white) ![Canvas](https://img.shields.io/badge/Canvas-007bff?style=for-the-badge&logo=canvas&logoColor=007bff) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![ChatGPT](https://img.shields.io/badge/ChatGPT-00BFFF?style=for-the-badge&logo=chatgpt&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=seaborn&logoColor=white)
 
 ## Descripción del repositorio 🗃️
-
+* **Automatización Whatchdog**
+* **CSV Finales**
+* **Diagrama Entidad-Relación**
+* **EDA-ETL**
+* **Imágenes**
+* **README**
 
