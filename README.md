@@ -47,9 +47,6 @@ ________________________________________________________________________________
 * **Inventario final**
 * **Detalle de comprea**
 
-## Tecnologias 🔭
-![Microsoft SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) ![Visual Code Studio](https://img.shields.io/badge/Visual%20Code%20Studio-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=white) ![Canvas](https://img.shields.io/badge/Canvas-007bff?style=for-the-badge&logo=canvas&logoColor=007bff) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![ChatGPT](https://img.shields.io/badge/ChatGPT-00BFFF?style=for-the-badge&logo=chatgpt&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=seaborn&logoColor=white)
-
 ## Descripción del repositorio 🗃️
 * **Automatización Whatchdog**
 * **CSV Finales**
@@ -59,16 +56,19 @@ ________________________________________________________________________________
 * **README**
 
 ## Carpeta 'Automatización Watchdog'
-#### En esta carpeta se encuentra el archivo (.ipynb) del proceso de automatización de carga incremental de datos desde Python hacia la base de datos InventarioBD en SQL Server Management.
+##### En esta carpeta se encuentra el archivo (.ipynb) del proceso de automatización de carga incremental de datos desde Python hacia la base de datos InventarioBD en SQL Server Management.
 
 ## Carpeta 'CSV Finales'
-#### Aquí se guardaron los seis archivos finales (.csv) correspondiente a cada dataframe luego del proceso de ETL. 
+##### Aquí se guardaron los seis archivos finales (.csv) correspondiente a cada dataframe luego del proceso de ETL. 
 
 ## Carpeta 'Diagrama_Entidad-Relación'
-#### Carpeta contenedora de imágenes correspondiente al DER de la base de datos InventarioDB, generados en Drawio y en SQL Server Management.
+##### Carpeta contenedora de imágenes correspondiente al DER de la base de datos InventarioDB, generados en Drawio y en SQL Server Management.
 
 ## Carpeta 'EDA - ETL'
-#### Aquí se cargaron los seis archivos (.ipynb) correspondientes a los procesos de de EDA y ETL de cada dataframe de la base de datos.
+##### Aquí se cargaron los seis archivos (.ipynb) correspondientes a los procesos de de EDA y ETL de cada dataframe de la base de datos.
 
 ## Carpeta 'Imagenes'
-#### Carpeta contenedora de imágenes varias que se usaron durante el armado del proyecto y de los archivos en general.
+##### Carpeta contenedora de imágenes varias que se usaron durante el armado del proyecto y de los archivos en general.
+
+## Tecnologías 🔭
+![Microsoft SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) ![Visual Code Studio](https://img.shields.io/badge/Visual%20Code%20Studio-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=white) ![Canvas](https://img.shields.io/badge/Canvas-007bff?style=for-the-badge&logo=canvas&logoColor=007bff) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![ChatGPT](https://img.shields.io/badge/ChatGPT-00BFFF?style=for-the-badge&logo=chatgpt&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=seaborn&logoColor=white)
