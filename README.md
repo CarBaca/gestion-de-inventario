@@ -79,8 +79,10 @@ ________________________________________________________________________________
 - **Visual Studio Code**: Development environment for writing and debugging code.
 - **GitHub**: Platform for version control and collaboration on code projects.
 - **Seaborn**: Python library for data visualization built on Matplotlib.
+- **Google Cloud Platform (GCP)**: Cloud service provider for scalable data storage, computing, and analytics solutions.
 - **Draw.io**: Tool for creating entity-relationship diagrams and other graphical diagrams.
 - **Canvas**: Tool for graphic design and creating visual content.
+
 
 ![Microsoft SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) ![Visual Code Studio](https://img.shields.io/badge/Visual%20Code%20Studio-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=white) ![Canvas](https://img.shields.io/badge/Canvas-007bff?style=for-the-badge&logo=canvas&logoColor=007bff) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![ChatGPT](https://img.shields.io/badge/ChatGPT-00BFFF?style=for-the-badge&logo=chatgpt&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=seaborn&logoColor=white)
 
@@ -163,6 +165,7 @@ ________________________________________________________________________________
 - **Visual Studio Code:** Entorno de desarrollo para escribir y depurar código.
 - **GitHub:** Plataforma para el control de versiones y colaboración en proyectos de código.
 - **Seaborn:** Biblioteca de Python para visualización de datos basada en Matplotlib.
+- **Google Cloud Platform (GCP)**: Proveedor de servicios en la nube para almacenamiento de datos, computación y soluciones de análisis escalables.
 - **Draw.io:** Herramienta para crear diagramas de entidad-relación y otros diagramas gráficos.
 - **Canvas:** Herramienta para el diseño gráfico y creación de contenido visual.
 
