@@ -1,3 +1,82 @@
+
+## Dashboard Analysis
+
+#### After implementing all the measures, we successfully created the final dashboard with visuals that address the needs posed by DRINK'S CIA. This dashboard provides a comprehensive view of the data, enabling DRINK'S CIA to make informed decisions about optimal inventory management.
+
+#### The dashboard is divided as follows:
+
+### Cover Page 📊
+![Cover Page](portada.png)
+##### On the cover page, we have five buttons that help navigate through the dashboard pages.
+
+### Purchases 🛍️
+![Purchases](pagina1.png)
+
+#### On this page, users can get a complete overview of the most relevant information about purchases at a glance. The data can be filtered by categories, products, months, and cities, providing a customized view of how purchases are distributed.
+* **The top cards highlight key purchase indicators, giving a quick snapshot of the situation.**
+* **The line chart shows how sales progress over time.**
+* **A second column chart provides information on the most purchased products.**
+* **On the left side of the dashboard, there are buttons to navigate between pages.**
+* **The last chart is a donut chart that shows the proportional distribution of purchases between these two categories.**
+
+### Continuing with the purchase analysis, in a second section we have Trends:
+![Purchases](pagina6.png)
+
+* **The stacked area chart explains purchase trends by category for two types of products: liquors and wines. This is relevant because it visualizes how purchases of these products vary over time, in this case, between December 2015 and February 2016.**
+* **The second bar chart illustrates purchase quantities by different bottle sizes, including 750 ml, 1L, and 1.75L.**
+
+### Sales 💰
+![Sales](pagina2.png)
+#### In this section, we delve into the specific sales data, providing a more detailed overview of the situation.
+* **At the top, there are filters by category and product, where you can type and search for the desired product. You can also filter by months and cities.**
+* **Below the filters are the most important KPIs.**
+* **A speedometer chart for order cycle time, crucial for evaluating the efficiency of the acquisition and delivery process.**
+* **A pie chart provides a quick view of how sales compare between these two categories.**
+* **The third chart is an area chart showing sales distribution during the selected period.**
+* **On the left side of the dashboard, there are buttons to navigate between pages.**
+* **On the right margin, there are markers with the names of the best-selling products. You can click on them to change the product image displayed.**
+
+### Transactions⌛
+![Transactions](pagina3.png)
+
+#### This page provides a detailed overview of the company's movements.
+
+* **As in previous pages, the filters are at the top.**
+* **On the left side of the dashboard, there are buttons to navigate between pages.**
+* **In the chart section, there is an area chart where you can observe how quantities fluctuate over time.**
+* **A second bar chart shows the most sold units.**
+* **Finally, a table describes each product, the units sold, and the price.**
+* **In the "schema" section, you can see a hierarchical schema showing sales by classification and products.**
+
+### Stock📋
+#### The "Stock" page provides a comprehensive view of the current inventory status.
+![Stock](pagina4.png)
+
+* **At the top, the same filters as the previous pages are displayed.**
+* **Next, there are speedometers representing the main KPIs: Direct Sales Rate (expresses the percentage of inventory sold compared to the amount received from the manufacturer or supplier), Inventory Turnover (measures how efficiently inventory is sold), and Cash Conversion Cycle (the time it takes for money to become money again).**
+* **On the left side of the dashboard, there are buttons to navigate between pages.**
+* **Lastly, a matrix describes the status of each product.**
+
+### Profitability 📈
+#### The "Profitability" page offers a detailed view of the company’s financial performance.
+![Profitability](pagina5.png)
+
+* **At the top, you can apply filters by categories, products, months, and cities.**
+* **We find KPI cards, profitability indicators: gross margin and stock value.**
+* **A combined column and line chart shows the stock level compared to safety stock and maximum stock levels.**
+* **On the left side of the dashboard, there are buttons to navigate between pages.**
+* **Finally, a treemap indicates the most profitable products (top 15 products).**
+
+### Conclusion 🚨
+#### Effective inventory management is vital for the success of any business. By analyzing data and optimizing inventory practices, significant benefits can be achieved, such as cost reduction, improved product turnover, supply chain efficiency, and ultimately a positive impact on profitability and customer satisfaction. Data-driven decisions allow the company to remain competitive and adaptable in a dynamic market.
+
+### Thank you for trusting the DATA SOLUTIONS team:
+![Aldana](Aldana.jpg)     ![Antonella](Antonella.jpg)     ![Carla](Carla.jpg)     ![Juan José](Juanjo.jpg)     ![Sofia](Sofi.jpg)
+
+---
+
+
+---
 ## Análisis del dashboard
 
 #### Luego de implementar todas las medidas, logramos armar con éxito el tablero final con gráficos que ayudan a dar respuesta a las necesidades planteadas por DRINK´S CIA.Este panel proporciona una visualización completa de los datos, lo que permite a DRINK´S CIA tomar decisiones informadas sobre como llevar adelante de forma óptima la gestión de su inventario.
