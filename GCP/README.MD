@@ -1,5 +1,130 @@
 
 ---
+
+## Database Migration to Google Cloud Platform (GCP) 💭
+
+---
+
+The first step was creating the **Data Solutions** project, within which the **data-solutions** instance was created. Then, the **inventario-bd-bucket** bucket was created in Cloud Storage to act as a container; six CSV files were uploaded into the folder ‘Bases de datos en bak’. Subsequently, a dataset called **InventarioBD** was created using the SQL workspace in BigQuery. Within this dataset, six tables were created corresponding to each of the CSV files previously uploaded to the bucket.
+
+## Automation and Scheduling of Table Data Updates in the Dataset 🕙
+
+1. **Creating a Topic in Pub/Sub**: Setting up the topic to receive messages triggering the table updates.
+    - The **InventarioBD-actualizar-tablas** topic was created to be used as a trigger for the function that allows the table data to be updated. This topic is also linked with Google Scheduler so that the function updates the tables weekly on Saturdays at 10:00 PM.
+   
+2. **Creating a Function in Google Cloud Functions**: Configuring the function to subscribe to the topic and update the tables in BigQuery.
+    - This code automates the table updates in BigQuery using CSV files stored in a Google Cloud Storage (GCS) bucket. It is configured and executed as a Cloud Function in GCP, triggered by Cloud Pub/Sub events to initiate the data loading process. This automation is useful for keeping the BigQuery tables updated with dynamic data stored in GCS.
+
+3. **Configuring a Job in Cloud Scheduler**: Scheduling a job to publish a message to the topic at the corresponding time and day.
+    - A new job called **programar-actualizacion-tablas** was created in Cloud Scheduler. This job is scheduled to run weekly on Saturdays at 10:00 PM and is directly linked to the Pub/Sub topic mentioned above.
+
+---
+
+### Code Explanation ☄️
+
+This code is a function developed in Python 3.9, running on Google Cloud Platform (GCP) using Cloud Functions. The function is designed to update tables in BigQuery from CSV files stored in Google Cloud Storage (GCS). It uses several Google Cloud libraries and GCP-specific functions to handle events and process data.
+
+The `actualizar_tablas_inventario` function is triggered by a Cloud Pub/Sub event. The function initializes clients for BigQuery and Cloud Storage, sets up the GCS bucket and BigQuery dataset names, and defines a dictionary mapping BigQuery table names to their corresponding CSV files in GCS. For each table and CSV file pair, it builds the file URI in GCS and the table ID in BigQuery. It configures a load job in BigQuery to use the CSV format, skip the first row of the CSV file, replace the existing table, and autodetect the CSV file schema. Then, it loads the CSV data into the BigQuery table and waits for the load job to complete before moving on to the next CSV file. Once all files have been processed and loaded into the corresponding tables, the function returns a message indicating that the tables have been successfully updated.
+
+Libraries used in this code:
+
+- **functions_framework**: Allows the creation of functions that can be deployed and run on GCP.
+- **google.cloud.bigquery**: Provides tools for interacting with BigQuery, a large-scale data storage and analysis service.
+- **google.cloud.storage**: Enables interaction with Google Cloud Storage, an object storage service.
+
+The function starts by initializing clients for BigQuery and Cloud Storage.
+
+```python
+@functions_framework.cloud_event
+def actualizar_tablas(cloud_event):
+    # Initialize BigQuery and Cloud Storage clients
+    client_bq = bigquery.Client()
+    client_gcs = storage.Client()
+```
+
+It then configures the GCS bucket and BigQuery dataset names where the data will be stored.
+
+```python
+# Set bucket and dataset names
+bucket_name = 'inventario-bd-bucket'
+folder_name = 'Bases de datos en bak'
+dataset_id = 'InventarioBD'
+```
+
+The script defines a dictionary `tablas_y_archivos` that maps BigQuery table names to their corresponding CSV files in GCS. For each table and CSV file pair, the file URI in GCS and the table ID in BigQuery are constructed.
+
+```python
+# List of tables and their corresponding CSV files
+tablas_y_archivos = {
+    'Tabla_InventarioInicial': 'Tabla_InventarioInicial.csv',
+    'Tabla_InventarioFinal': 'Tabla_InventarioFinal.csv',
+    'Tabla_Producto': 'Tabla_Producto.csv',
+    'Tabla_VentasFinal': 'Tabla_VentasFinal.csv',
+    'Tabla_Compras': 'Tabla_Compras.csv',
+    'Tabla_DetalleCompras': 'Tabla_DetalleCompras.csv'
+}
+```
+
+For each CSV file, a load job is configured in BigQuery using `bigquery.LoadJobConfig`. This load job is set to:
+- Use the CSV format.
+- Skip the first row of the CSV file (which usually contains headers).
+- Replace the existing table (write disposition).
+- Autodetect the CSV file schema.
+
+```python
+# Process each table and its corresponding CSV file
+for tabla, archivo_csv in tablas_y_archivos.items():
+    file_name = f'{folder_name}/{archivo_csv}'
+    uri = f'gs://{bucket_name}/{file_name}'
+    table_id = f'{client_bq.project}.{dataset_id}.{tabla}'
+
+    # Configure load job
+    job_config = bigquery.LoadJobConfig(
+        source_format=bigquery.SourceFormat.CSV,
+        skip_leading_rows=1,  # Adjust this according to your CSV
+        write_disposition=bigquery.WriteDisposition.WRITE_TRUNCATE,  # Replace the table
+        autodetect=True  # Autodetect the schema
+    )
+```
+
+Next, the script loads the CSV data into the BigQuery table using `load_job`. The load job is executed and waits to finish before continuing with the next CSV file. Once all files have been processed and loaded into the corresponding tables, the function returns a message indicating that the tables have been successfully updated.
+
+```python
+    # Load data from CSV into the table
+    load_job = client_bq.load_table_from_uri(
+        uri,
+        table_id,
+        job_config=job_config
+    )
+
+    # Wait for the load job to finish
+    load_job.result()
+    print(f'Table {tabla} successfully updated.')
+
+return 'Tables updated successfully.'
+```
+
+---
+
+## Conclusion
+
+The migration of the project’s database to GCP was created to facilitate our client **Drink's** access to updated and accurate data. The automation implemented in GCP allows for regular and efficient updates of the tables in BigQuery from CSV files stored in Google Cloud Storage, ensuring the information is always up to date. This automation is useful for maintaining the tables in BigQuery with dynamic data stored in GCS, as it not only improves data accessibility and accuracy for Drink's but also provides a solid and flexible platform for future expansions and improvements.
+
+---
+
+### Benefits of Hosting the Project in GCP
+
+1. **Scalability**: GCP allows for easy scaling of data storage and processing as the business needs grow.
+2. **Security**: GCP offers robust security measures to protect stored and processed data.
+3. **Automation**: Automating repetitive tasks reduces errors and frees up time for staff to focus on more strategic activities.
+4. **Global Access**: Data and applications are available from anywhere, facilitating collaboration and remote access.
+5. **Integration**: GCP offers a wide range of services that easily integrate, enabling the building of complete and efficient solutions.
+6. **Cost-Efficiency**: You only pay for the resources you use, which can reduce costs compared to on-premises solutions. 
+
+---
+
+
+---
 ## Traslado de la base de datos a Google Cloud Platform (GCP) 💭
 
 ---
