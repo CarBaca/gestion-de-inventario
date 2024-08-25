@@ -1,3 +1,4 @@
+
 ---
 
 ### Automation and Incremental Data Load Code using Watchdog Library 🤖
@@ -155,8 +156,6 @@ In summary, this code automates the update of a SQL Server database with data fr
 ![VisualStudio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Microsoft SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white) 
 
 ---
-
-
 
 
 ---
